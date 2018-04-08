@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'poiret_oneregular';
+    src: url('./assets/fonts/poiretone-regular-webfont.woff2') format('woff2'),
+         url('./assets/fonts/poiretone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    padding-top: 5%;
+    display: block;
+    margin: 0;
+
+}
+#name{
+    font-family: 'poiret_oneregular';
+    color:#2A0944;
+}
+
+hr{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #0F3460;
+}
+
+.adjContainer{
+    text-align: center; 
+}
+
+#typed {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: #7F5283;
+}
+
+.navbar {
+    width: 50%; 
+    padding-right: 25%;
+    padding-left: 25%;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.navbar a {
+    float: left; 
+    width: 10%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+  }
+
+/* Change image param  */
+  img {
+    display: inline-block; 
+    position: relative; 
+    width: 200px; 
+    height: 200px;
+    overflow: hidden; 
+    border-radius: 50%;
+  }
+
+
+  #pageTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    letter-spacing: 1pt;
+    line-height: 150%;
+    color: #2A0944;
+    font-weight: bold;
+  }
+  #intro{
+    letter-spacing: 1pt;
+    line-height: 150%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2A0944;
+}
+
+.navbar a:hover {
+    color: #7F5283; 
+  }
+
+
+.description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    margin-bottom: 0;
+    margin-top: 0;
+}

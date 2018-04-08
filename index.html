@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fatima Shaik</title>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+
+    <img src="assets/pfp.png" alt="Picture of Fatima Shaik">
+    <h1 id = "name" >FATIMA SHAIK</h1>
+    <div class = "adjContainer">
+      <p id = "typed">I'm interested in <span class = "auto-type"></span></p>
+    </div>
+    
+    <script> 
+      var typed = new Typed(".auto-type", {
+        strings: ["circuit design.", "web design.", "UI/UX design.", "graphic design."],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+      });
+      
+    </script>
+    <!-- Nav bar -->
+    <div class="navbar">
+        <a onclick="copyTextToClipboard('fzshaik@ucdavis.edu')"><i onmouseenter="mouseEnter('email (fzshaik@ucdavis.edu)')" onmouseleave="mouseLeave()" class="fa fa-envelope-o fa-lg"></i> </a>
+        <!-- Linkedin -->
+        <a id = "linkedin" href="https://www.linkedin.com/in/fatima-shaik/"><i onmouseenter="mouseEnter('linkedin')" onmouseleave="mouseLeave()" class="fa fa-linkedin fa-lg"></i></a>
+        <!-- Github -->
+        <a id = "github" href="https://github.com/fatimazshaik"><i onmouseenter="mouseEnter('github')" onmouseleave="mouseLeave()"class="fa fa-github fa-lg"></i></a>
+        <!-- Resume incomplete-->
+        <a id = "resume" href="assets/resume.pdf"><i onmouseenter="mouseEnter('resume')" onmouseleave="mouseLeave()" class="fa fa-file-text-o fa-lg"></i></a>
+        <!-- Maybe add Portfolio? -->
+    </div>
+      <hr>
+      <div class = "description">
+      <p id= "pageTitle">welcome.</p>
+      <!-- Introduction -->
+      <p id = "intro" >I am currently a sophmore majoring
+      <br>
+      in Computer Engineering at UC Davis. 
+      <br>
+      Feel free to contact me if you want to chat!</p>
+    </div>
+
+    
+</body>
+
+  
+</html>
