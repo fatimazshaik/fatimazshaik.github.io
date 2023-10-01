@@ -21,7 +21,7 @@ body{
 }
 #name{
     font-family: 'poiret_oneregular';
-    color:#2A0944;
+    color:#0f0944;
 }
 
 hr{
@@ -39,7 +39,7 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: italic;
-    color: #7F5283;
+    color: #525d83;
 }
 
 .navbar {
@@ -77,7 +77,7 @@ hr{
     margin-bottom: 0px;
     letter-spacing: 1pt;
     line-height: 150%;
-    color: #2A0944;
+    color: #091f44;
     font-weight: bold;
   }
   #intro{
@@ -90,11 +90,11 @@ hr{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: #2A0944;
+    color: #092944
 }
 
 .navbar a:hover {
-    color: #7F5283; 
+    color: #525783; 
   }
 
 
